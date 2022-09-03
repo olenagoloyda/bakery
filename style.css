@@ -1,0 +1,281 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500,600&display=swap);
+
+@font-face {
+     font-family: 'Gilroy';
+     src: url('fonts/Gilroy-Regular.eot');
+     src: local('Gilroy Regular'), local('Gilroy-Regular'),
+          url('fonts/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+          url('fonts/Gilroy-Regular.woff2') format('woff2'),
+          url('fonts/Gilroy-Regular.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Gilroy-Bold';
+     src: url('fonts/Gilroy-Bold.eot');
+     src: local('Gilroy Bold'), local('Gilroy-Bold'),
+          url('fonts/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+          url('fonts/Gilroy-Bold.woff2') format('woff2'),
+          url('fonts/Gilroy-Bold.woff') format('woff');
+     font-weight: bold;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'Gilroy-Medium';
+     src: url('fonts/Gilroy-Medium.eot');
+     src: local('Gilroy Medium'), local('Gilroy-Medium'),
+          url('fonts/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+          url('fonts/Gilroy-Medium.woff2') format('woff2'),
+          url('fonts/Gilroy-Medium.woff') format('woff');
+     font-weight: 500;
+     font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+     padding: 0;
+     margin: 0;
+     border: 0;
+     box-sizing: border-box;
+}
+
+a {
+     text-decoration: none;
+     color: #F5F5F5;
+}
+
+ul,
+ol,
+li {
+     list-style: none;
+}
+
+html,
+body {
+     height: 100%;
+}
+
+body {
+     line-height: 1;
+     font-family: Inter;
+     font-weight: 500;
+     color: #F5F5F5;
+}
+
+.wrapper {
+     min-height: 100%;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+
+}
+
+[class*="__container"] {
+     max-width: 1190px;
+     margin: 0 auto;
+}
+
+header {
+     height: 100vh;
+     background: url('img/backgrounds/bread_background.png');
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+
+.header__container {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 37px;
+     padding: 0 25px;
+}
+
+.logo {
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 1.21;
+}
+
+.menu {}
+
+.menu_items {
+     display: flex;
+     gap: 54px;
+}
+
+.main_page {
+     text-align: center;
+     margin-top: 187px;
+}
+
+.menu_item {}
+
+h1 {
+     font-family: 'Gilroy-Bold';
+     font-size: 130px;
+     margin-bottom: 18px;
+}
+
+
+.p_main_page {
+     font-family: 'Gilroy-Medium';
+     font-size: 20px;
+     margin-bottom: 32px;
+}
+
+.button {
+     background-color: #F3C37A;
+     padding: 14px 56px 18px 57px;
+     border-radius: 15px;
+
+}
+
+.main_page_button {
+     font-weight: 500;
+     font-size: 24px;
+     line-height: 1.3;
+     color: #2D221E;
+}
+
+main {
+     background-image: url('img/backgrounds/about_us_background.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.main__container {
+     margin-top: 138px;
+}
+
+.about_us_content {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 139px;
+}
+
+.about_us_text_content {
+     margin-right: 35px;
+}
+
+.section_title {
+     font-family: 'Gilroy-Medium';
+     font-size: 36px;
+     line-height: 1.17;
+     color: #F3C37A;
+     margin-bottom: 34px;
+     text-align: center;
+}
+
+.about_us_p {
+     font-family: 'Gilroy';
+     line-height: 24px;
+     font-size: 20px;
+     width: 440px;
+}
+
+br {
+     content: "";
+     margin: 25px;
+     display: block;
+}
+
+.about_us_content_photo img {
+     width: 906px;
+     height: 426px;
+}
+
+.about_bread {}
+
+.text_upper_block {
+     display: flex;
+     justify-content: space-between;
+}
+
+.ingredients_block {
+     padding-top: 10px;
+     width: 270px;
+}
+
+.about_bread_p {
+     font-family: 'Gilroy-Medium';
+     font-size: 20px;
+     line-height: 24px;
+}
+
+.recipe_block {
+     width: 270px;
+}
+
+.about_bread_img {
+     display: block;
+     margin: 0 auto;
+     margin-top: 66px;
+     max-height: 390px;
+     max-width: 823px;
+}
+
+.text_bottom_block {
+     margin-top: 85px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.about_norms {
+     width: 270px;
+     text-align: left;
+     align-self: center;
+}
+
+.our_secret {
+     margin-top: 189px;
+     margin-bottom: 36px;
+}
+
+.transitional_block {
+     background-image: url('img/rolling_out_bread.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     width: 100%;
+     height: 60vh;
+}
+
+.menu__container {
+     margin-top: 139px;
+}
+
+.menu_title {}
+
+.menu_items_container {
+     margin-top: 96px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 116px;
+}
+
+.menu_item {
+     width: 300px;
+}
+
+.menu_items_title {
+     margin-top: 22px;
+     font-size: 20px;
+     line-height: 24px;
+}
+
+.menu_items_ingridients {
+     width: 285px;
+     margin-top: 12px;
+     font-size: 16px;
+     line-height: 19.36px;
+}
+
+.price {
+     margin-top: 25px;
+     font-size: 24px;
+     line-height: 1.2;
+     color: #F3C37A;
+}
